@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,69 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+.App {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  height: 200vh;
+}
+.HeaderPage {
+  display: flex;
+  /* background-color: white; */
+  align-self: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.BigTitle {
+  width: 60%;
+  align-self: center;
+}
+
+.Illustration_work {
+  display: flex;
+}
+
+.Illustration {
+  width: 85%;
+}
+
+.whiteBackground {
+  background-color: white;
+  width: 20%;
+  margin-left: -50px;
+}
+
+.Title {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.Paragraph {
+  color: hsl(0, 0%, 75%);
+  font-size: 400;
+  font-weight: bold;
+}
+
+.buttonGetStarted {
+  font-size: 14px;
+  font-weight: 100;
+  background-color: hsl(180, 66%, 49%);
+  color: white;
+  border-radius: 30px;
+  border: none;
+  height: 40px;
+  width: 15%;
+  margin-top: 25px;
+}
+
+.Form {
+  background-image: "\images\bg-boost-desktop.svg";
+  border: 1px solid black;
+  width: 50%;
+  align-self: center;
+  margin-top: 150px;
+  height: 55px;
 }
